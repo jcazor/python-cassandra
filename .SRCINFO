@@ -1,0 +1,22 @@
+pkgbase = python-cassandra
+	pkgdesc = Python driver for Cassandra
+	pkgver = 3.1.1
+	pkgrel = 1
+	url = http://github.com/datastax/python-driver
+	arch = i686
+	arch = x86_64
+	license = Apache
+	makedepends = python-setuptools
+	makedepends = git
+	makedepends = gcc
+	makedepends = libevdev
+	source = git+https://github.com/datastax/python-driver.git#tag=3.1.1
+	md5sums = SKIP
+
+pkgname = python-cassandra
+	depends = python
+	depends = python-six
+	optdepends = lz4: for compression support in cassandra 2.0+
+	optdepends = snappy: for compression support in cassandra 1.2+
+	optdepends = libevent: alternative to python asyncore for a better performance event loop
+
