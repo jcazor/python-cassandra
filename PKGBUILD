@@ -2,7 +2,7 @@
 # Maintainer: Juan Cañete <jcazor@komlog.org>
 
 pkgname=('python-cassandra')
-pkgver=3.3.0
+pkgver=3.4.1
 pkgrel=1
 pkgdesc='Python driver for Cassandra'
 arch=('i686' 'x86_64')
